@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "tnoaAdmin"
+      "value": "GEN-UNIQUE"
     },
     "adminPassword": {
-      "value": "Azure@123456789"
+      "value": "GEN-PASSWORD"
     },
     "dnsLabelPrefix": {
-      "value": "tnoaAdmin"
+      "value": "GEN-UNIQUE"
     }
   }
 }
