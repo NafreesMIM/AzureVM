@@ -31,7 +31,7 @@
     },
     "publicIpName": {
       "type": "string",
-      "defaultValue": "HadVM-PublicIP",
+      "defaultValue": "VM-PublicIP",
       "metadata": {
         "description": "Name for the Public IP used to access the Virtual Machine."
       }
@@ -106,7 +106,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "Had-VM",
+      "defaultValue": "Name-VM",
       "metadata": {
         "description": "Name of the virtual machine."
       }
@@ -126,11 +126,11 @@
   "variables": {
     "storageAccountName": "[format('bootdiags{0}', uniqueString(resourceGroup().id))]",
     "nicName": "myVMNic",
-    "addressPrefix": "10.110.0.0/16",
+    "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
-    "subnetPrefix": "10.110.0.0/24",
-    "virtualNetworkName": "Had-VNET",
-    "networkSecurityGroupName": "Had-NSG",
+    "subnetPrefix": "10.0.0.0/24",
+    "virtualNetworkName": "Name-VNET",
+    "networkSecurityGroupName": "Name-NSG",
     "securityProfileJson": {
       "uefiSettings": {
         "secureBootEnabled": true,
